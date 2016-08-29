@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="278" id="KGk-i7-Jjw" customClass="TopicViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="399.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eSE-yI-o96">
+                        <rect key="frame" x="8" y="8" width="365" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="365" id="bmc-24-3YS"/>
+                            <constraint firstAttribute="width" secondItem="eSE-yI-o96" secondAttribute="height" multiplier="73:50" id="dI9-av-oBY"/>
+                        </constraints>
+                        <state key="normal" title="Button" backgroundImage="homeBG.jpg"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uwc-1b-jsI">
+                        <rect key="frame" x="8" y="259" width="365" height="30"/>
+                        <color key="backgroundColor" red="1" green="0.89130375559999997" blue="0.2201015502" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwv-hV-5t3">
+                        <rect key="frame" x="8" y="358" width="365" height="30"/>
+                        <color key="backgroundColor" red="0.68579810857772827" green="0.20435073971748352" blue="0.088226951658725739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mni-rv-h5a">
+                        <rect key="frame" x="8" y="308" width="365" height="50"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="p18-Qf-rN0"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="leading" secondItem="Uwc-1b-jsI" secondAttribute="leading" id="4IW-1T-e6W"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="5hr-6z-WwI"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="8SS-vH-zf9"/>
+                    <constraint firstItem="Mni-rv-h5a" firstAttribute="top" secondItem="eSE-yI-o96" secondAttribute="bottom" constant="50" id="BIy-ec-rMp"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="trailing" secondItem="Uwc-1b-jsI" secondAttribute="trailing" id="CPP-93-NlK"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="leading" secondItem="Mni-rv-h5a" secondAttribute="leading" id="DUX-Zi-qSg"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="HPd-Yp-q9g"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="leading" secondItem="hwv-hV-5t3" secondAttribute="leading" id="I2m-O7-0Id"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="trailing" secondItem="Mni-rv-h5a" secondAttribute="trailing" id="LNP-iJ-a0E"/>
+                    <constraint firstItem="Uwc-1b-jsI" firstAttribute="top" secondItem="eSE-yI-o96" secondAttribute="bottom" constant="1" id="Ls9-gp-ern"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eSE-yI-o96" secondAttribute="trailing" id="dRb-nv-PND"/>
+                    <constraint firstItem="eSE-yI-o96" firstAttribute="trailing" secondItem="hwv-hV-5t3" secondAttribute="trailing" id="eQD-zM-cQ4"/>
+                    <constraint firstItem="hwv-hV-5t3" firstAttribute="top" secondItem="Mni-rv-h5a" secondAttribute="bottom" id="pm9-ta-JCO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="entranceButton" destination="Mni-rv-h5a" id="hJh-gi-7Lz"/>
+                <outlet property="imageButton" destination="eSE-yI-o96" id="gX5-gj-93C"/>
+                <outlet property="titleButton_1" destination="Uwc-1b-jsI" id="Y3I-wg-QhX"/>
+                <outlet property="titleButton_2" destination="hwv-hV-5t3" id="Huu-j7-KHD"/>
+            </connections>
+            <point key="canvasLocation" x="178.5" y="309"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="homeBG.jpg" width="375" height="667"/>
+    </resources>
+</document>

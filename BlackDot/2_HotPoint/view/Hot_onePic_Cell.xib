@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="Hot_onePic_Cell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新闻标题" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtG-4m-NtU">
+                        <rect key="frame" x="5" y="5" width="189" height="67"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Bd-MP-peB">
+                        <rect key="frame" x="199" y="5" width="116" height="87"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3Bd-MP-peB" secondAttribute="height" multiplier="4:3" id="2jb-Nc-8Mo"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECQ-2l-21M">
+                        <rect key="frame" x="5" y="71" width="100" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="Joe-93-qFx"/>
+                            <constraint firstAttribute="height" constant="20" id="sFa-Nf-rPP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UtG-4m-NtU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="7pe-iu-FL0"/>
+                    <constraint firstAttribute="trailing" secondItem="3Bd-MP-peB" secondAttribute="trailing" constant="5" id="Ae8-4i-M4d"/>
+                    <constraint firstAttribute="bottom" secondItem="UtG-4m-NtU" secondAttribute="bottom" constant="25" id="CRN-Yi-il0"/>
+                    <constraint firstItem="3Bd-MP-peB" firstAttribute="leading" secondItem="UtG-4m-NtU" secondAttribute="trailing" constant="5" id="CZ9-sC-UA2"/>
+                    <constraint firstItem="3Bd-MP-peB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="FLa-h2-u8H"/>
+                    <constraint firstAttribute="bottom" secondItem="ECQ-2l-21M" secondAttribute="bottom" constant="5" id="Fxd-ap-C3K"/>
+                    <constraint firstItem="ECQ-2l-21M" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="QHf-UW-SfZ"/>
+                    <constraint firstItem="UtG-4m-NtU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="vk4-TZ-QYN"/>
+                    <constraint firstAttribute="bottom" secondItem="3Bd-MP-peB" secondAttribute="bottom" constant="5" id="xnf-XJ-Sj4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="authorLabel" destination="ECQ-2l-21M" id="NHi-7J-z6u"/>
+                <outlet property="leftImageView" destination="3Bd-MP-peB" id="kke-nR-2L0"/>
+                <outlet property="titleLabel" destination="UtG-4m-NtU" id="2Yn-yS-sow"/>
+            </connections>
+            <point key="canvasLocation" x="195" y="135.5"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,65 @@
+//
+//  PrefixHeader.pch
+//  WYTNews
+//
+//  Created by Penny&Me on 16/6/21.
+//  Copyright © 2016年 WangYuetong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HIGTH [UIScreen mainScreen].bounds.size.height
+
+//#define methemColor [UIColor colorWithRed:84/255.0 green:110/255.0 blue:122/255.0 alpha:1.0]
+#define methemColor [UIColor colorWithRed:143/255.0 green:161/255.0 blue:54/255.0 alpha:1.0]
+#define collectColor [UIColor colorWithRed:232/255.0 green:245/255.0 blue:233/255.0  alpha:1.0]
+#define mytitleColor [UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:1]
+#define timeNow [[NSString stringWithFormat:@"%f",[[NSDate date] timeIntervalSince1970]] substringToIndex:10]
+
+///////////头文件//////////rgb(232, 245, 233)
+
+#import "HomeTopModel.h"//首页顶部scrollView的model;
+#import "UIImageView+WebCache.h" //加载网络图片
+#import "AFHTTPSessionManager.h" //网络请求
+#import "Const.h"
+#import "HomePageDBManager.h"//数据库管理
+#import "FactoryUtil.h"
+
+#import "ProgressHUD.h"
+#import "MJRefresh.h"
+
+//////////网站接口////////////
+//查看所有
+#define kAllData (@"http://iphone.myzaker.com/zaker/apps_v3.php?act=getAllAppsData")
+
+//首页滚动视图
+#define kTopScroll (@"http://iphone.myzaker.com/zaker/follow_promote.php?_appid=iphone&_bsize=640_960&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6&m=")
+//#define kTopScroll (@"http://iphone.myzaker.com/zaker/follow_promote.php?_appid=iphone&_bsize=640_960&_city=%E4%B8%8A%E6%B5%B7&_dev=iPhone%2C7.0.4&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_mac=02%3A00%3A00%3A00%3A00%3A00&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6&m=%@")
+
+//热点
+//#define kHotPoint (@"http://hotphone.myzaker.com/daily_hot_new.php?_appid=iphone&_uid=&_utoken=&clean_local_cache=Y")
+#define kHotPoint (@"http://hotphone.myzaker.com/daily_hot_new.php?_appid=iphone&_bsize=640_960&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6&clean_local_cache=Y")
+
+#define kHotNext (@"http://hotphone.myzaker.com/daily_hot_new.php?_appid=iphone&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&act=next&last_time=%@&rank=159900")
+//
+#define kHotPre (@"http://hotphone.myzaker.com/daily_hot_new.php?_appid=iphone&_bsize=640_960&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6&act=pre&last_time=%@&rank=153378")
+//
+//玩乐
+#define kPlayEnjoy (@"http://wl.myzaker.com/?_appid=iphone&_v=6.6&_version=6.6&c=columns&city=")
+
+//社区 精选
+
+#define kSelected (@"http://dis.myzaker.com/api/get_post_selected.php?_appid=iphone&_bsize=640_960&_dev=iPhone%2C7.0.4&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6")
+
+
+//社区 话题
+#define kZoneTitle (@"http://dis.myzaker.com/api/list_discussion.php?_appid=iphone&_bsize=750_1334&_idfa=7DB20894-FEE9-4D5B-A2FD-04CBB2B02DFF&_lat=0.000000&_lng=0.000000&_net=wifi&_udid=C7931ED2-2AFD-43EA-850C-C2B3F08046B0&_uid=&_utoken=&_v=6.6&_version=6.6&except_subscribe=N")
+
+#define kZoneTopic (@"http://dis.myzaker.com/api/list_discussion.php?_appid=iphone&_bsize=640_960&_city=上海&_dev=iPhone,7.0.4&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_mac=02:00:00:00:00:00&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6&act=more_discussion&except_recommend=Y")
+
+#define kDiscuss (@"http://dis.myzaker.com/api/get_post.php?_appid=iphone&_bsize=750_1334&_dev=iPhone,9.3.2&_idfa=7DB20894-FEE9-4D5B-A2FD-04CBB2B02DFF&_lat=0.000000&_lng=0.000000&_mac=02:00:00:00:00:00&_net=wifi&_udid=C7931ED2-2AFD-43EA-850C-C2B3F08046B0&_uid=&_utoken=&_v=6.6&_version=6.6&discussion_id=168&sort_type=last_comment")
+
+#define kTopic (@"http://iphone.myzaker.com/zaker/topic_list_new.php?_appid=iphone&_bsize=640_960&_dev=iPhone%2C7.0.4&_idfa=4A1DAB0B-CCFE-4E04-8B5D-E636D304808B&_lat=0.000000&_lng=0.000000&_net=wifi&_udid=16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3&_uid=&_utoken=&_v=6.6&_version=6.6")
+
+#endif /* PrefixHeader_pch */
