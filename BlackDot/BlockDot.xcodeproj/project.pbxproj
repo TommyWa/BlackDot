@@ -177,7 +177,6 @@
 		9D95E7601D2D405A00665854 /* ColumnHeaderCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E75E1D2D405A00665854 /* ColumnHeaderCollectionViewCell.m */; };
 		9D95E7651D2D505A00665854 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E7631D2D505A00665854 /* MyCollectionViewCell.m */; };
 		9D95E7661D2D505A00665854 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D95E7641D2D505A00665854 /* MyCollectionViewCell.xib */; };
-		9D95E83B1D30F01A00665854 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E83A1D30F01A00665854 /* LoginViewController.m */; };
 		9D95E8411D3107B700665854 /* allDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D95E8401D3107B700665854 /* allDataModel.m */; };
 		9DB9E2001D349FD000D4BFFC /* MyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB9E1FE1D349FD000D4BFFC /* MyCollectionCell.m */; };
 		9DB9E2011D349FD000D4BFFC /* MyCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9E1FF1D349FD000D4BFFC /* MyCollectionCell.xib */; };
@@ -488,8 +487,6 @@
 		9D95E7621D2D505A00665854 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionViewCell.h; path = ../../5_Library/MyCollectionViewCell.h; sourceTree = "<group>"; };
 		9D95E7631D2D505A00665854 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCollectionViewCell.m; path = ../../5_Library/MyCollectionViewCell.m; sourceTree = "<group>"; };
 		9D95E7641D2D505A00665854 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyCollectionViewCell.xib; path = ../../5_Library/MyCollectionViewCell.xib; sourceTree = "<group>"; };
-		9D95E8391D30F01A00665854 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		9D95E83A1D30F01A00665854 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		9D95E83F1D3107B700665854 /* allDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allDataModel.h; sourceTree = "<group>"; };
 		9D95E8401D3107B700665854 /* allDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = allDataModel.m; sourceTree = "<group>"; };
 		9DB9E1FD1D349FD000D4BFFC /* MyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionCell.h; sourceTree = "<group>"; };
@@ -564,8 +561,6 @@
 				9D03F4D31D1D38DC00D140B1 /* LaunchScreen.storyboard */,
 				9D03F4D61D1D38DC00D140B1 /* Info.plist */,
 				9D03F4C51D1D38DC00D140B1 /* Supporting Files */,
-				9D95E8391D30F01A00665854 /* LoginViewController.h */,
-				9D95E83A1D30F01A00665854 /* LoginViewController.m */,
 			);
 			path = MyZaker;
 			sourceTree = "<group>";
@@ -1409,7 +1404,6 @@
 				9D8AED821D24AA5B0059D92F /* Hot_noPic_Cell.m in Sources */,
 				9D8B2E8F1D228B9400FF0F0E /* HotPointModel.m in Sources */,
 				9D8B2EE51D228B9400FF0F0E /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				9D95E83B1D30F01A00665854 /* LoginViewController.m in Sources */,
 				9D8B2E911D228B9400FF0F0E /* PlayenjoyViewController.m in Sources */,
 				9D61ED591D3774FB00481AC0 /* YPTabBar.m in Sources */,
 				9D95E7591D2D1B3E00665854 /* MyLayOut.m in Sources */,
