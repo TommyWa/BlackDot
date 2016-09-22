@@ -1,3 +1,5 @@
 1.在DELL1分支中新增一个newTEXT文件
 
 2.在dellbranch分支中做出次修改；
+
+3.在dell1中的修改
