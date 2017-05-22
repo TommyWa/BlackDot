@@ -71,8 +71,11 @@
 
 #pragma mark 从网络获取数据
 - (void)downloadData{
-    [ProgressHUD showOnView:self.view];
+    
+    [ProgressHUD show:@"转圈圈加载载"];
+    
     __weak typeof(self)weakSelf = self;
+    
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     
     [manager GET:kAllData parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
@@ -80,25 +83,36 @@
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         //数据解析
         if ([responseObject isKindOfClass:[NSDictionary class]]) {
+            
             NSDictionary * bigDict = responseObject;
+            
             NSArray * categoryArray = bigDict[@"data"][@"datas"];
+            
             for (NSDictionary * categoryDic in categoryArray) {
+                
                 datesArrayModel * model = [[datesArrayModel alloc] init];
+                
                 [model setValuesForKeysWithDictionary:categoryDic];
+                
                 if ([model.title isEqualToString:@"生活"] || [model.title isEqualToString:@"本地新闻"]) {
+                    
                     NSLog(@"跳过");
+                    
                 }else{
+                    
                     [_dataArray addObject:model];
                 }
             }
             //刷新tableView
             [weakSelf.tableView reloadData];
-            [ProgressHUD hideAfterSuccessOnView:weakSelf.view];
+            
+            [ProgressHUD dismiss];
         }
+        
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //打印错误
         NSLog(@"首页网络错误%@",error);
-        [ProgressHUD hideAfterFailOnView:weakSelf.view];
+        [ProgressHUD showError:@"首页数据错误"];
     }];
     
 }
