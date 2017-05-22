@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
                BuildableName = "BlockDot.app"
-               BlueprintName = "BlockDot"
-               ReferencedContainer = "container:BlockDot.xcodeproj">
+               BlueprintName = "BlackDot"
+               ReferencedContainer = "container:BlackDot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
             BuildableName = "BlockDot.app"
-            BlueprintName = "BlockDot"
-            ReferencedContainer = "container:BlockDot.xcodeproj">
+            BlueprintName = "BlackDot"
+            ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -57,8 +57,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
             BuildableName = "BlockDot.app"
-            BlueprintName = "BlockDot"
-            ReferencedContainer = "container:BlockDot.xcodeproj">
+            BlueprintName = "BlackDot"
+            ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,8 +76,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
             BuildableName = "BlockDot.app"
-            BlueprintName = "BlockDot"
-            ReferencedContainer = "container:BlockDot.xcodeproj">
+            BlueprintName = "BlackDot"
+            ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

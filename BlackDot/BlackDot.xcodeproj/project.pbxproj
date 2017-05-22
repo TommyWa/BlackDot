@@ -152,7 +152,7 @@
 		59D69C7C1ED2DF1600062D71 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		59D69C7D1ED2DF1600062D71 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.distribution.xcconfig"; sourceTree = "<group>"; };
-		9D03F4C21D1D38DC00D140B1 /* BlockDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D03F4C21D1D38DC00D140B1 /* BlackDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D03F4C61D1D38DC00D140B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D03F4C81D1D38DC00D140B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D03F4C91D1D38DC00D140B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -394,7 +394,7 @@
 		9D03F4C31D1D38DC00D140B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D03F4C21D1D38DC00D140B1 /* BlockDot.app */,
+				9D03F4C21D1D38DC00D140B1 /* BlackDot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -807,9 +807,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D03F4C11D1D38DC00D140B1 /* BlockDot */ = {
+		9D03F4C11D1D38DC00D140B1 /* BlackDot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D03F4D91D1D38DC00D140B1 /* Build configuration list for PBXNativeTarget "BlockDot" */;
+			buildConfigurationList = 9D03F4D91D1D38DC00D140B1 /* Build configuration list for PBXNativeTarget "BlackDot" */;
 			buildPhases = (
 				42DDB3F5DDA016B8324151A8 /* [CP] Check Pods Manifest.lock */,
 				9D03F4BE1D1D38DC00D140B1 /* Sources */,
@@ -822,9 +822,9 @@
 			);
 			dependencies = (
 			);
-			name = BlockDot;
+			name = BlackDot;
 			productName = MyZaker;
-			productReference = 9D03F4C21D1D38DC00D140B1 /* BlockDot.app */;
+			productReference = 9D03F4C21D1D38DC00D140B1 /* BlackDot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -842,7 +842,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D03F4BD1D1D38DC00D140B1 /* Build configuration list for PBXProject "BlockDot" */;
+			buildConfigurationList = 9D03F4BD1D1D38DC00D140B1 /* Build configuration list for PBXProject "BlackDot" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -855,7 +855,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D03F4C11D1D38DC00D140B1 /* BlockDot */,
+				9D03F4C11D1D38DC00D140B1 /* BlackDot */,
 			);
 		};
 /* End PBXProject section */
@@ -1189,7 +1189,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
-				PRODUCT_NAME = BlockDot;
+				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1212,7 +1212,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
-				PRODUCT_NAME = BlockDot;
+				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1278,7 +1278,7 @@
 					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
-				PRODUCT_NAME = BlockDot;
+				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1287,7 +1287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D03F4BD1D1D38DC00D140B1 /* Build configuration list for PBXProject "BlockDot" */ = {
+		9D03F4BD1D1D38DC00D140B1 /* Build configuration list for PBXProject "BlackDot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D03F4D71D1D38DC00D140B1 /* Debug */,
@@ -1297,7 +1297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D03F4D91D1D38DC00D140B1 /* Build configuration list for PBXNativeTarget "BlockDot" */ = {
+		9D03F4D91D1D38DC00D140B1 /* Build configuration list for PBXNativeTarget "BlackDot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D03F4DA1D1D38DC00D140B1 /* Debug */,

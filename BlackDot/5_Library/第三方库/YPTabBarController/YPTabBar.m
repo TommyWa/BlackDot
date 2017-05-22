@@ -66,9 +66,6 @@
     _badgeTitleFont = [UIFont systemFontOfSize:13];
     _badgeBackgroundColor = BADGE_BG_COLOR_DEFAULT;
     
-//    _numberBadgeFrame = YPTabItemBadgeFrameMake(2, 30, 16);
-//    _dotBadgeFrame = YPTabItemBadgeFrameMake(5, 25, 10);
-    
     _numberBadgeMarginTop = 2;
     _numberBadgeCenterMarginRight = 30;
     _numberBadgeTitleHorizonalSpace = 8;
