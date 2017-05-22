@@ -24,7 +24,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-BlockDot.xcscheme</key>
+		<key>Pods-BlackDot.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -52,27 +52,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>46BE58923DA2BED1E4C895DFC366F491</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>683D60F15955A4FCD65EB04AEC900592</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>72718FDE22B920135EFB575EE2C24FCC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9375578C50406EDF72E1575E5012C9AD</key>
+		<key>7D33C601790F09A32068B4ED5C939821</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>9F85A41AEB2CCB56ACDA370DF8DDB444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9D838EF4689B05AE2C6D1CAA6550598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6E4CDC3042C3E952CA9AA4D5CD9665E</key>
 		<dict>
 			<key>primary</key>
 			<true/>

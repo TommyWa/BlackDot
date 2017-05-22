@@ -1,8 +1,8 @@
 platform:ios,'8.0'
 
-project '/Users/wyt/Desktop/BlackDot/BlackDot/BlockDot.xcodeproj '
+project '/Users/wyt/Desktop/BlackDot/BlackDot/BlackDot.xcodeproj '
 
-target 'BlockDot' do
+target 'BlackDot' do
 
 pod 'AFNetworking', '~> 3.1.0'
 pod 'FMDB', '~> 2.6.2'

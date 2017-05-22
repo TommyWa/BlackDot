@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
-               BuildableName = "BlockDot.app"
+               BuildableName = "BlackDot.app"
                BlueprintName = "BlackDot"
                ReferencedContainer = "container:BlackDot.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
-            BuildableName = "BlockDot.app"
+            BuildableName = "BlackDot.app"
             BlueprintName = "BlackDot"
             ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
-            BuildableName = "BlockDot.app"
+            BuildableName = "BlackDot.app"
             BlueprintName = "BlackDot"
             ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9D03F4C11D1D38DC00D140B1"
-            BuildableName = "BlockDot.app"
+            BuildableName = "BlackDot.app"
             BlueprintName = "BlackDot"
             ReferencedContainer = "container:BlackDot.xcodeproj">
          </BuildableReference>

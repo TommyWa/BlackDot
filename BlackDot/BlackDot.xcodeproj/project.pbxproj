@@ -142,15 +142,20 @@
 		9DB9E2A91D366E4600D4BFFC /* ic_bubble_chart_black_48px.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9E2A81D366E4600D4BFFC /* ic_bubble_chart_black_48px.png */; };
 		9DB9E2AC1D36728400D4BFFC /* icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9E2AA1D36728400D4BFFC /* icon2x.png */; };
 		9DB9E2AD1D36728400D4BFFC /* icon3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9DB9E2AB1D36728400D4BFFC /* icon3x.png */; };
+		CC624D7A939B4FEC9790202A /* libPods-BlackDot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB420A966F0A0EFBCCE4311 /* libPods-BlackDot.a */; };
 		E969C4D9D84F41CB4AD64074 /* libPods-BlockDot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 207E4B0F631B5A00FFD99CD3 /* libPods-BlockDot.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.release.xcconfig"; sourceTree = "<group>"; };
 		207E4B0F631B5A00FFD99CD3 /* libPods-BlockDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CD2D6DAF31960AD75AD3683 /* Pods-BlockDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.release.xcconfig"; sourceTree = "<group>"; };
+		3AB420A966F0A0EFBCCE4311 /* libPods-BlackDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.debug.xcconfig"; sourceTree = "<group>"; };
+		4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
 		59D69C7C1ED2DF1600062D71 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		59D69C7D1ED2DF1600062D71 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
+		59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
 		7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.distribution.xcconfig"; sourceTree = "<group>"; };
 		9D03F4C21D1D38DC00D140B1 /* BlackDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D03F4C61D1D38DC00D140B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -349,6 +354,7 @@
 			files = (
 				9D8B2F111D228C7400FF0F0E /* libsqlite3.tbd in Frameworks */,
 				E969C4D9D84F41CB4AD64074 /* libPods-BlockDot.a in Frameworks */,
+				CC624D7A939B4FEC9790202A /* libPods-BlackDot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +367,9 @@
 				40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */,
 				2CD2D6DAF31960AD75AD3683 /* Pods-BlockDot.release.xcconfig */,
 				7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */,
+				59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */,
+				020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */,
+				4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -800,6 +809,7 @@
 			isa = PBXGroup;
 			children = (
 				207E4B0F631B5A00FFD99CD3 /* libPods-BlockDot.a */,
+				3AB420A966F0A0EFBCCE4311 /* libPods-BlackDot.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -980,7 +990,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		92607B3C9580B0395EAE6C13 /* [CP] Copy Pods Resources */ = {
@@ -995,7 +1005,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1174,7 +1184,7 @@
 		};
 		9D03F4DA1D1D38DC00D140B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */;
+			baseConfigurationReference = 59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -1197,7 +1207,7 @@
 		};
 		9D03F4DB1D1D38DC00D140B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CD2D6DAF31960AD75AD3683 /* Pods-BlockDot.release.xcconfig */;
+			baseConfigurationReference = 020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -1262,7 +1272,7 @@
 		};
 		9D61ED601D377D9100481AC0 /* distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */;
+			baseConfigurationReference = 4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
