@@ -11,7 +11,7 @@
 @implementation MyCollectionCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    [super awakeFromNib];
     self.layer.borderColor = [methemColor CGColor];
     self.layer.borderWidth = 0.5;
     

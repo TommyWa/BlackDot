@@ -71,14 +71,14 @@
 //从网络获取数据
 - (void)downloadDataWithURLString:(NSString * )urlString{
     
-    [ProgressHUD showOnView:self.view];
+//    [ProgressHUD showOnView:self.view];
     NSDictionary * dict = @{@"_bsize":@"",@"idfa":@"4A1DAB0B-CCFE-4E04-8B5D-E636D304808B",@"_lat":@"0.000000",@"-lng":@"0.000000",@"_net":@"",@"_v":@"",@"_version":@"",@"_udid":@"16765F6F-8E33-44C1-B5E9-ACCACBB7FDD3",@"_uid":@""};
     __weak typeof(self)weakSelf = self;
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     [manager GET:urlString parameters:dict progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        [ProgressHUD hideAfterSuccessOnView:weakSelf.view];
+//        [ProgressHUD hideAfterSuccessOnView:weakSelf.view];
             NSLog(@"%ld次请求",(long)_count);
             NSLog(@"%@",urlString);
         if ([responseObject isKindOfClass:[NSDictionary class]]) {
@@ -105,7 +105,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //数据请求失败
-        [ProgressHUD hideAfterFailOnView:weakSelf.view];
+//        [ProgressHUD hideAfterFailOnView:weakSelf.view];
         [weakSelf.tableView.mj_header endRefreshing];
         [weakSelf.tableView.mj_footer endRefreshing];
         NSLog(@"热点数据%@",error);

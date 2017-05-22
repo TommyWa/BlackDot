@@ -50,6 +50,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.backgroundColor = [UIColor whiteColor];
     _selectedItemIndex = -1;
     _itemTitleColor = [UIColor whiteColor];

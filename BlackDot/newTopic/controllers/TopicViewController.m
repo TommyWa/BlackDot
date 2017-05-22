@@ -55,12 +55,17 @@
 
 - (void)downloadDataWithUrl:(NSString *)url{
     
-    [ProgressHUD showOnView:self.view];
+    [ProgressHUD show];
+    
     __weak typeof(self)weakSelf = self;
+    
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
+    
     [manager GET:url parameters:nil progress:^(NSProgress * _Nonnull downloadProgress) {
+    
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        [ProgressHUD hideAfterSuccessOnView:weakSelf.view];
+    
+        [ProgressHUD dismiss];
 
         if ([responseObject isKindOfClass:[NSDictionary class]]) {
             
@@ -89,7 +94,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //数据请求失败
-        [ProgressHUD hideAfterFailOnView:weakSelf.view];
+        [ProgressHUD dismiss];
         [weakSelf.table.mj_header endRefreshing];
         [weakSelf.table.mj_footer endRefreshing];
         NSLog(@"专题数据错误%@",error);

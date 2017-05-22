@@ -102,7 +102,7 @@
 }
 //下载数据
 - (void)downloadDataWithUrl:(NSString *)url{
-    [ProgressHUD showOnView:self.view];
+//    [ProgressHUD showOnView:self.view];
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     NSDictionary * param = @{@"_appid":@"iphone",@"_bsize":@"640_960",@"_version":@"6.46"};
     [manager GET:url
@@ -140,7 +140,7 @@
                 [_tempArray addObject:pageArr];
             }
 
-            [ProgressHUD hideAfterSuccessOnView:self.view];
+//            [ProgressHUD hideAfterSuccessOnView:self.view];
             //刷新表格
                 [_collection reloadData];
             
@@ -148,7 +148,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //数据下载失败处理
-        [ProgressHUD hideAfterFailOnView:self.view];
+//        [ProgressHUD hideAfterFailOnView:self.view];
         NSLog(@"column数据下载失败");
     }];
 }

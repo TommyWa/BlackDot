@@ -39,6 +39,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     _selectedControllerIndex = -1;
     _tabBar = [[YPTabBar alloc] init];
     _tabBar.delegate = self;

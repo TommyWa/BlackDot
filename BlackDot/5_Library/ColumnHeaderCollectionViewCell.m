@@ -11,6 +11,7 @@
 @implementation ColumnHeaderCollectionViewCell
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
 }
 - (instancetype)initWithFrame:(CGRect)frame{
     if (self = [super initWithFrame:frame]) {

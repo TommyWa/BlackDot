@@ -141,14 +141,16 @@
 
 - (void)downloadDataWithUrl:(NSString *)url{
 
-    [ProgressHUD showOnView:self.hideView];
+    [ProgressHUD show];
+    
     __weak typeof(self)weakSelf = self;
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
     NSDictionary * param = @{@"_appid":@"iphone",@"_bsize":@"640_960",@"_v":@"6.6",@"_version":@"6.6"};
     [manager GET:url parameters:param progress:^(NSProgress * _Nonnull downloadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        [ProgressHUD hideAfterSuccessOnView:weakSelf.view];
+        
+        [ProgressHUD dismiss];
 
         if ([responseObject isKindOfClass:[NSDictionary class]]) {
             NSDictionary * bigDict = responseObject;
@@ -188,7 +190,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         //数据请求失败
-        [ProgressHUD hideAfterFailOnView:weakSelf.hideView];
+        [ProgressHUD dismiss];
         [weakSelf.tableView.mj_header endRefreshing];
         [weakSelf.tableView.mj_footer endRefreshing];
         NSLog(@"热点数据%@",error);

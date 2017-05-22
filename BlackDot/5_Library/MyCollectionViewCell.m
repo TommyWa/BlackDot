@@ -11,8 +11,11 @@
 @implementation MyCollectionViewCell
 
 - (void)awakeFromNib {
-//    self.backgroundColor = [UIColor colorWithRed:146/255.0 green:185/255.0 blue:111/255.0 alpha:0.5];
+  
+    [super awakeFromNib];
+    
     self.layer.borderWidth = 0.3;
+    
     self.layer.borderColor = [[UIColor blackColor] CGColor];
 
 }

@@ -39,6 +39,7 @@
 }
 
 - (void)awakeFromNib {
+    [super awakeFromNib];
     self.badgeButton = [UIButton buttonWithType:UIButtonTypeCustom];
     self.badgeButton.userInteractionEnabled = NO;
     self.badgeButton.clipsToBounds = YES;
