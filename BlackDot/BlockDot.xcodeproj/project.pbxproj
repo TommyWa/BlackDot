@@ -529,7 +529,7 @@
 			children = (
 				9D8B2F101D228C7400FF0F0E /* libsqlite3.tbd */,
 				9D6923601D3372DB00E3774D /* newTopic */,
-				9D8B2D851D228B9300FF0F0E /* 1_HomePage */,
+				9D8B2D851D228B9300FF0F0E /* 1_首页 */,
 				9D8B2D8F1D228B9300FF0F0E /* 2_HotPoint */,
 				9D8B2D991D228B9300FF0F0E /* 3_PlayEnjoy */,
 				9D8B2DA31D228B9300FF0F0E /* 4_Zone */,
@@ -628,7 +628,7 @@
 			path = views;
 			sourceTree = "<group>";
 		};
-		9D8B2D851D228B9300FF0F0E /* 1_HomePage */ = {
+		9D8B2D851D228B9300FF0F0E /* 1_首页 */ = {
 			isa = PBXGroup;
 			children = (
 				9D95E7571D2D1B3E00665854 /* MyLayOut.h */,
@@ -637,6 +637,7 @@
 				9D8B2D891D228B9300FF0F0E /* model */,
 				9D8B2D8C1D228B9300FF0F0E /* view */,
 			);
+			name = "1_首页";
 			path = 1_HomePage;
 			sourceTree = "<group>";
 		};
