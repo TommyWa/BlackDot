@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59C901EA1ED301A4004C7F39 /* NetWorkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C901E91ED301A4004C7F39 /* NetWorkUtility.m */; };
 		59D69C7E1ED2DF1600062D71 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 59D69C7D1ED2DF1600062D71 /* BaseRequest.m */; };
 		9D03F4C71D1D38DC00D140B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C61D1D38DC00D140B1 /* main.m */; };
 		9D03F4CA1D1D38DC00D140B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C91D1D38DC00D140B1 /* AppDelegate.m */; };
@@ -153,6 +154,8 @@
 		3AB420A966F0A0EFBCCE4311 /* libPods-BlackDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.debug.xcconfig"; sourceTree = "<group>"; };
 		4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
+		59C901E81ED301A4004C7F39 /* NetWorkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkUtility.h; sourceTree = "<group>"; };
+		59C901E91ED301A4004C7F39 /* NetWorkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkUtility.m; sourceTree = "<group>"; };
 		59D69C7C1ED2DF1600062D71 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
 		59D69C7D1ED2DF1600062D71 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
@@ -377,6 +380,8 @@
 		59D69C7B1ED2DE0C00062D71 /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
+				59C901E81ED301A4004C7F39 /* NetWorkUtility.h */,
+				59C901E91ED301A4004C7F39 /* NetWorkUtility.m */,
 				59D69C7C1ED2DF1600062D71 /* BaseRequest.h */,
 				59D69C7D1ED2DF1600062D71 /* BaseRequest.m */,
 			);
@@ -1059,6 +1064,7 @@
 				9D8B2E9A1D228B9400FF0F0E /* ZoneBestViewController.m in Sources */,
 				9D8AED871D24AA800059D92F /* Hot_onePic_Cell.m in Sources */,
 				9D8AED821D24AA5B0059D92F /* Hot_noPic_Cell.m in Sources */,
+				59C901EA1ED301A4004C7F39 /* NetWorkUtility.m in Sources */,
 				9D8B2E8F1D228B9400FF0F0E /* HotPointModel.m in Sources */,
 				9D8B2E911D228B9400FF0F0E /* PlayenjoyViewController.m in Sources */,
 				9D61ED591D3774FB00481AC0 /* YPTabBar.m in Sources */,
