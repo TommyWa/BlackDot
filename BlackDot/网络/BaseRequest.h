@@ -16,12 +16,12 @@ typedef NS_ENUM(NSInteger , RequestSerializerType) {
 
 typedef NS_ENUM(NSInteger, SNRequestMethod) {
 
-    SNRequestMethodGet = 0,
-    SNRequestMethodPost,
-    SNRequestMethodHead,
-    SNRequestMethodPut,
-    SNRequestMethodDelete,
-    SNRequestMethodPatch
+    RequestMethodGet = 0,
+    RequestMethodPost,
+    RequestMethodHead,
+    RequestMethodPut,
+    RequestMethodDelete,
+    RequestMethodPatch
 };
 
 
@@ -51,6 +51,8 @@ typedef NS_ENUM(NSInteger, SNRequestMethod) {
     
 @property (nonatomic , strong) NSDictionary * userInfo;
 
+@property (nonatomic , strong) NSURLSessionDataTask * requstSessionTask;
+
 @property (nonatomic , weak)id <BaseRequestDelegate>delegate;
 
 @property (nonatomic , strong , readonly) NSDictionary * responseHeaders;
@@ -74,6 +76,10 @@ typedef NS_ENUM(NSInteger, SNRequestMethod) {
 @property (nonatomic, assign) RequestSerializerType  requestSerializerType;
 
 @property (nonatomic, strong) NSMutableArray *arrayRedirectedHosts;
+
+//url跳转的处理block
+@property (nonatomic, copy) NSURLRequest * (^redirectBlock)(NSURLConnection *connection, NSURLRequest *request, NSURLResponse *redirectResponse);
+
 
 - (void)startWithCompletionBlockWithSuccess:(void (^)(BaseRequest *request))success
                                     failure:(void (^)(BaseRequest *request))failure;
