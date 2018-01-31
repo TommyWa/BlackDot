@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4B7A29FE1878BC9FCBFF38 /* libPods-BlackDot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */; };
 		9D03F4C71D1D38DC00D140B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C61D1D38DC00D140B1 /* main.m */; };
 		9D03F4CA1D1D38DC00D140B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C91D1D38DC00D140B1 /* AppDelegate.m */; };
 		9D03F4CD1D1D38DC00D140B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4CC1D1D38DC00D140B1 /* ViewController.m */; };
@@ -143,9 +144,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.release.xcconfig"; sourceTree = "<group>"; };
-		4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
-		59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
 		9D03F4C21D1D38DC00D140B1 /* BlackDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D03F4C61D1D38DC00D140B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D03F4C81D1D38DC00D140B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -303,8 +301,8 @@
 		9D8B2F1E1D22D1CB00FF0F0E /* HomePageButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageButtonCell.m; sourceTree = "<group>"; };
 		9D8B2F221D22D65800FF0F0E /* CategoryChooseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryChooseCell.h; sourceTree = "<group>"; };
 		9D8B2F231D22D65800FF0F0E /* CategoryChooseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryChooseCell.m; sourceTree = "<group>"; };
-		9D95E7571D2D1B3E00665854 /* MyLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLayOut.h; path = ../5_Library/MyLayOut.h; sourceTree = "<group>"; };
-		9D95E7581D2D1B3E00665854 /* MyLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyLayOut.m; path = ../5_Library/MyLayOut.m; sourceTree = "<group>"; };
+		9D95E7571D2D1B3E00665854 /* MyLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLayOut.h; sourceTree = "<group>"; };
+		9D95E7581D2D1B3E00665854 /* MyLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLayOut.m; sourceTree = "<group>"; };
 		9D95E75D1D2D405A00665854 /* ColumnHeaderCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColumnHeaderCollectionViewCell.h; path = ../../5_Library/ColumnHeaderCollectionViewCell.h; sourceTree = "<group>"; };
 		9D95E75E1D2D405A00665854 /* ColumnHeaderCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColumnHeaderCollectionViewCell.m; path = ../../5_Library/ColumnHeaderCollectionViewCell.m; sourceTree = "<group>"; };
 		9D95E7621D2D505A00665854 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionViewCell.h; path = ../../5_Library/MyCollectionViewCell.h; sourceTree = "<group>"; };
@@ -333,6 +331,10 @@
 		9DB9E2A81D366E4600D4BFFC /* ic_bubble_chart_black_48px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bubble_chart_black_48px.png; sourceTree = "<group>"; };
 		9DB9E2AA1D36728400D4BFFC /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
 		9DB9E2AB1D36728400D4BFFC /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3x.png; sourceTree = "<group>"; };
+		9E3193A29D92342EC978F195 /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
+		A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3333C6E32611C2D04DFB6C /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
+		CA9E3B35F7E64241BA9C650D /* Pods-BlackDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8B2F111D228C7400FF0F0E /* libsqlite3.tbd in Frameworks */,
+				5A4B7A29FE1878BC9FCBFF38 /* libPods-BlackDot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,9 +353,9 @@
 		126439780469D3FC5911EDA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */,
-				020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */,
-				4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */,
+				CA3333C6E32611C2D04DFB6C /* Pods-BlackDot.debug.xcconfig */,
+				CA9E3B35F7E64241BA9C650D /* Pods-BlackDot.release.xcconfig */,
+				9E3193A29D92342EC978F195 /* Pods-BlackDot.distribution.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -465,8 +468,6 @@
 		9D8B2D851D228B9300FF0F0E /* 1_首页 */ = {
 			isa = PBXGroup;
 			children = (
-				9D95E7571D2D1B3E00665854 /* MyLayOut.h */,
-				9D95E7581D2D1B3E00665854 /* MyLayOut.m */,
 				9D8B2D861D228B9300FF0F0E /* controller */,
 				9D8B2D891D228B9300FF0F0E /* model */,
 				9D8B2D8C1D228B9300FF0F0E /* view */,
@@ -669,6 +670,8 @@
 			isa = PBXGroup;
 			children = (
 				9D8B2F101D228C7400FF0F0E /* libsqlite3.tbd */,
+				9D95E7571D2D1B3E00665854 /* MyLayOut.h */,
+				9D95E7581D2D1B3E00665854 /* MyLayOut.m */,
 				9D8AEE751D26B4920059D92F /* HomePageDBManager.h */,
 				9D8AEE761D26B4920059D92F /* HomePageDBManager.m */,
 				9D8AEE771D26B4920059D92F /* NewsWebViewController.h */,
@@ -780,6 +783,7 @@
 		B67DA51DACF8B0AF7FE06B9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -791,12 +795,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D03F4D91D1D38DC00D140B1 /* Build configuration list for PBXNativeTarget "BlackDot" */;
 			buildPhases = (
-				42DDB3F5DDA016B8324151A8 /* [CP] Check Pods Manifest.lock */,
+				AB3DE1D7FFA182CB1F196F68 /* 📦 Check Pods Manifest.lock */,
 				9D03F4BE1D1D38DC00D140B1 /* Sources */,
 				9D03F4BF1D1D38DC00D140B1 /* Frameworks */,
 				9D03F4C01D1D38DC00D140B1 /* Resources */,
-				8823827E813D5D827AE1DB90 /* [CP] Embed Pods Frameworks */,
-				92607B3C9580B0395EAE6C13 /* [CP] Copy Pods Resources */,
+				CFACA8B0F89E02F2B652C180 /* 📦 Embed Pods Frameworks */,
+				B26F8538C8BB07CFBD810284 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -818,7 +822,7 @@
 				TargetAttributes = {
 					9D03F4C11D1D38DC00D140B1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = T7N4WB8M79;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -932,14 +936,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42DDB3F5DDA016B8324151A8 /* [CP] Check Pods Manifest.lock */ = {
+		AB3DE1D7FFA182CB1F196F68 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -947,34 +951,34 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8823827E813D5D827AE1DB90 /* [CP] Embed Pods Frameworks */ = {
+		B26F8538C8BB07CFBD810284 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		92607B3C9580B0395EAE6C13 /* [CP] Copy Pods Resources */ = {
+		CFACA8B0F89E02F2B652C180 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1152,12 +1156,14 @@
 		};
 		9D03F4DA1D1D38DC00D140B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */;
+			baseConfigurationReference = CA3333C6E32611C2D04DFB6C /* Pods-BlackDot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1168,19 +1174,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
 				PRODUCT_NAME = BlackDot;
-				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9D03F4DB1D1D38DC00D140B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */;
+			baseConfigurationReference = CA9E3B35F7E64241BA9C650D /* Pods-BlackDot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: li Li (TVKTND8WKD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: li Li (TVKTND8WKD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1191,7 +1200,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
 				PRODUCT_NAME = BlackDot;
-				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1240,13 +1250,15 @@
 		};
 		9D61ED601D377D9100481AC0 /* distribution */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */;
+			baseConfigurationReference = 9E3193A29D92342EC978F195 /* Pods-BlackDot.distribution.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: li Li (TVKTND8WKD)";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution: li Li (TVKTND8WKD)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: li Li (TVKTND8WKD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1257,7 +1269,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.1604.blackDot;
 				PRODUCT_NAME = BlackDot;
-				PROVISIONING_PROFILE = "6b36f2ca-462b-48ed-ab64-ddb042848390";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = distribution;

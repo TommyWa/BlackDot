@@ -1,3 +1,6 @@
 [submodule "TestBlackDot"]
 	path = TestBlackDot
 	url = git@github.com:TommyWa/TestBlackDot.git
+[submodule "layoutLib"]
+	path = layoutLib
+	url = https://github.com/TommyWa/layoutLib.git

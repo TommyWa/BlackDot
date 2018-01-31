@@ -6,6 +6,8 @@
 //  Copyright © 2016年 WangYuetong. All rights reserved.
 //
 
+#define kWidth [UIScreen mainScreen].bounds.size.width
+#define kHeight [UIScreen mainScreen].bounds.size.height
 #import "MyLayOut.h"
 
 @implementation MyLayOut
@@ -23,7 +25,8 @@
 
 }
 -(CGSize)collectionViewContentSize{
-    return CGSizeMake(WIDTH * _numberOfSection, HIGTH-40);
+    
+    return CGSizeMake(kWidth * _numberOfSection, kHeight-40);
 }
 //返回collectionView的内容的尺寸
 
@@ -52,27 +55,27 @@
 -(UICollectionViewLayoutAttributes * )layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewLayoutAttributes *  attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
     NSInteger r = indexPath.section;
-    CGFloat heigth = (HIGTH -100)/5;
-    CGFloat width = WIDTH/2;
+    CGFloat heigth = (kHeight -100)/5;
+    CGFloat width = kWidth/2;
     
     switch (indexPath.item) {
         case 0:
-            attributes.frame = CGRectMake(WIDTH * r, 60, width*2, heigth*2);
+            attributes.frame = CGRectMake(kWidth * r, 60, width*2, heigth*2);
             break;
         case 1:
-            attributes.frame = CGRectMake(WIDTH * r, heigth*2+60, width, heigth);
+            attributes.frame = CGRectMake(kWidth * r, heigth*2+60, width, heigth);
             break;
         case 2:
-            attributes.frame = CGRectMake(WIDTH * r + width, heigth*2+60, width, heigth);
+            attributes.frame = CGRectMake(kWidth * r + width, heigth*2+60, width, heigth);
             break;
         case 3:
-            attributes.frame = CGRectMake(WIDTH * r, heigth*3+60, WIDTH, heigth);
+            attributes.frame = CGRectMake(kWidth * r, heigth*3+60, kWidth, heigth);
             break;
         case 4:
-            attributes.frame = CGRectMake(WIDTH *r, heigth*4+60, width, heigth);
+            attributes.frame = CGRectMake(kWidth *r, heigth*4+60, width, heigth);
             break;
         case 5:
-            attributes.frame = CGRectMake(WIDTH * r + width, heigth*4+60, width, heigth);
+            attributes.frame = CGRectMake(kWidth * r + width, heigth*4+60, width, heigth);
             break;
         default:
             break;
@@ -108,7 +111,7 @@
     UICollectionViewLayoutAttributes * attributes = [UICollectionViewLayoutAttributes layoutAttributesForSupplementaryViewOfKind:kind withIndexPath:indexPath];
     NSInteger r = indexPath.section;
 
-    attributes.frame = CGRectMake(WIDTH *r, 0, WIDTH, 60);
+    attributes.frame = CGRectMake(kWidth *r, 0, kWidth, 60);
 
     return attributes;
     

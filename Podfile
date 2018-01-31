@@ -1,6 +1,6 @@
 platform:ios,'8.0'
 
-project '/Users/wyt/Desktop/BlackDot/BlackDot/BlackDot.xcodeproj '
+project '/Users/wild/Desktop/BlackDot/BlackDot.xcodeproj'
 
 target 'BlackDot' do
 
