@@ -6,8 +6,7 @@
 //  Copyright © 2016年 WangYuetong. All rights reserved.
 //
 
-#define kWidth [UIScreen mainScreen].bounds.size.width
-#define kHeight [UIScreen mainScreen].bounds.size.height
+
 #import "MyLayOut.h"
 
 @implementation MyLayOut
