@@ -1,0 +1,3 @@
+[submodule "TestBlackDot"]
+	path = TestBlackDot
+	url = git@github.com:TommyWa/TestBlackDot.git

@@ -110,7 +110,6 @@
 		9D8B2ECF1D228B9400FF0F0E /* 提示底@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B2DF41D228B9300FF0F0E /* 提示底@2x.png */; };
 		9D8B2ED01D228B9400FF0F0E /* DownloadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B2DF81D228B9300FF0F0E /* DownloadData.m */; };
 		9D8B2ED11D228B9400FF0F0E /* FactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B2DFA1D228B9300FF0F0E /* FactoryUtil.m */; };
-		9D8B2EDD1D228B9400FF0F0E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D8B2E171D228B9300FF0F0E /* Info.plist */; };
 		9D8B2F111D228C7400FF0F0E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8B2F101D228C7400FF0F0E /* libsqlite3.tbd */; settings = {ATTRIBUTES = (Required, ); }; };
 		9D8B2F141D228E3700FF0F0E /* HomeTopScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B2F131D228E3700FF0F0E /* HomeTopScrollView.m */; };
 		9D8B2F1C1D22D07200FF0F0E /* HomeChooseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8B2F1B1D22D07200FF0F0E /* HomeChooseViewController.m */; };
@@ -145,11 +144,8 @@
 
 /* Begin PBXFileReference section */
 		020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.release.xcconfig"; sourceTree = "<group>"; };
-		2CD2D6DAF31960AD75AD3683 /* Pods-BlockDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.release.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.release.xcconfig"; sourceTree = "<group>"; };
-		40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.debug.xcconfig"; sourceTree = "<group>"; };
 		4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
 		59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
-		7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockDot.distribution.xcconfig"; path = "../Pods/Target Support Files/Pods-BlockDot/Pods-BlockDot.distribution.xcconfig"; sourceTree = "<group>"; };
 		9D03F4C21D1D38DC00D140B1 /* BlackDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlackDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D03F4C61D1D38DC00D140B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D03F4C81D1D38DC00D140B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -298,7 +294,6 @@
 		9D8B2DF91D228B9300FF0F0E /* FactoryUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryUtil.h; sourceTree = "<group>"; };
 		9D8B2DFA1D228B9300FF0F0E /* FactoryUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryUtil.m; sourceTree = "<group>"; };
 		9D8B2DFB1D228B9300FF0F0E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		9D8B2E171D228B9300FF0F0E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../5_Library/第三方库/Masonry/Info.plist"; sourceTree = "<group>"; };
 		9D8B2F101D228C7400FF0F0E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9D8B2F121D228E3700FF0F0E /* HomeTopScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopScrollView.h; sourceTree = "<group>"; };
 		9D8B2F131D228E3700FF0F0E /* HomeTopScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopScrollView.m; sourceTree = "<group>"; };
@@ -355,9 +350,6 @@
 		126439780469D3FC5911EDA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				40F8787895EAEEDD1659124B /* Pods-BlockDot.debug.xcconfig */,
-				2CD2D6DAF31960AD75AD3683 /* Pods-BlockDot.release.xcconfig */,
-				7BE3C3451A30CDEF07B220D2 /* Pods-BlockDot.distribution.xcconfig */,
 				59F5786EAB5737020356A636 /* Pods-BlackDot.debug.xcconfig */,
 				020AE46A7DEB8A96C232CD3A /* Pods-BlackDot.release.xcconfig */,
 				4C5C6AA83847C54AB00133DA /* Pods-BlackDot.distribution.xcconfig */,
@@ -392,7 +384,6 @@
 		9D03F4C41D1D38DC00D140B1 /* MyZaker */ = {
 			isa = PBXGroup;
 			children = (
-				9D8B2E171D228B9300FF0F0E /* Info.plist */,
 				9D03F4C81D1D38DC00D140B1 /* AppDelegate.h */,
 				9D03F4C91D1D38DC00D140B1 /* AppDelegate.m */,
 				9D03F4CB1D1D38DC00D140B1 /* ViewController.h */,
@@ -903,7 +894,6 @@
 				9D03F4D01D1D38DC00D140B1 /* Main.storyboard in Resources */,
 				9DB9E2A91D366E4600D4BFFC /* ic_bubble_chart_black_48px.png in Resources */,
 				9D8B2EC81D228B9400FF0F0E /* ic_thumb_up_48px.png in Resources */,
-				9D8B2EDD1D228B9400FF0F0E /* Info.plist in Resources */,
 				9DB9E2A11D363BF800D4BFFC /* ic_sentiment_satisfied_black_48px.png in Resources */,
 				9D8B2ECB1D228B9400FF0F0E /* ic_whatshot_48px.png in Resources */,
 				9D8B2EAE1D228B9400FF0F0E /* ic_casino_black_48px.png in Resources */,

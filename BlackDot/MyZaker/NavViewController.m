@@ -7,9 +7,6 @@
 //
 
 #import "NavViewController.h"
-#import "FactoryUtil.h"
-#import "ProgressHUD.h"
-#import "MJRefresh.h"
 
 @interface NavViewController ()
 @property(nonatomic,strong)UITableView * tableView;
@@ -19,8 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.navigationController.navigationBar.barTintColor = methemColor;
-
 }
 
 
@@ -31,10 +26,6 @@
 
 //自定义导航栏内容
 - (void)setMyNavgationItem{
-//    
-//    UIButton * button = [FactoryUtil createButtonWithTitle:nil frame:CGRectMake(0, 0, 30, 30) backImage:[UIImage imageNamed:@"ic_account_circle_48px"] tatget:self action:@selector(gotoHomepage)];
-//    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-//    self.navigationController.navigationBar.barTintColor = methemColor;
     
 }
 
