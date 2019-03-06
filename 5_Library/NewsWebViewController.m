@@ -22,7 +22,7 @@
     [super viewDidLoad];
 //    [self downloadData];  采用H5的方式请求时打开
     self.navigationController.navigationBarHidden = YES;
-
+    
     [self.view addSubview:self.webView];
     [self.view addSubview:self.toolBar];
     [self createToolbarButton];
