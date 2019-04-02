@@ -34,7 +34,7 @@
 
 @implementation HomePageViewController
 
-#pragma mark 检索数据库来显示已经收藏的数据
+#pragma mark - checkCollectedData
 - (void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
@@ -63,9 +63,8 @@
     [self createHomeAddButton];//添加按钮
 }
 
-    
-    
-#pragma mark 初始化子视图
+
+#pragma mark - initSubviews
 - (UICollectionView *)collectionView{
 
     self.automaticallyAdjustsScrollViewInsets = NO;
@@ -120,7 +119,7 @@
     
     [manager selectAllFavorites:^(NSArray *array) {
         
-        _collectonArray = [NSMutableArray arrayWithArray:array];
+        weakSelf.collectonArray = [NSMutableArray arrayWithArray:array];
         
         [weakSelf.collectionView reloadData];
         
@@ -138,7 +137,7 @@
     self.addButton.frame = frame;
 }
 
-#pragma mark 初始化数据
+#pragma mark - initData
 - (void)initData{
 
     _scrollArray = [NSMutableArray array];
@@ -146,7 +145,7 @@
     _collectonArray = [NSMutableArray array];
 }
 
-#pragma mark 获取顶部视图数据
+#pragma mark - getScrollViewData
 - (void)downloadTopScrollViewData{
     
     self.automaticallyAdjustsScrollViewInsets  = NO;
@@ -169,10 +168,10 @@
                 
                 [model setValuesForKeysWithDictionary:smallDict];
                 
-                [_scrollArray addObject:model];
+                [self->_scrollArray addObject:model];
             }
             
-            HomeTopScrollView * scroll = [[HomeTopScrollView alloc] initWithFrame:CGRectMake(0, -200, WIDTH, 200) AndPicArray:_scrollArray];
+            HomeTopScrollView * scroll = [[HomeTopScrollView alloc] initWithFrame:CGRectMake(0, -200, WIDTH, 200) AndPicArray:self->_scrollArray];
 
             [scroll setBlock:^(NSString *apiUrl, NSString *type) {
                 
@@ -218,7 +217,7 @@
     }];
 }
 
-#pragma mark创建添加内容的button + 号
+#pragma mark - createAddButton
 - (void)createHomeAddButton{
     
     _addButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -252,10 +251,7 @@
 
 }
 
-#pragma mark 懒加载CollectionView
-
-
-#pragma mark UICollectionView代理方法
+#pragma mark - UICollectionView
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
 
     return self.collectonArray.count;
