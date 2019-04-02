@@ -11,10 +11,10 @@
 #import "NewsWebViewController.h"
 #import "ColumnHeaderCollectionViewCell.h"
 
-
 #import "MyLayOut.h"
 #import "MyCollectionViewCell.h"
 #import "MyCollectionCell.h"
+
 @interface ColumViewController ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
 @property(nonatomic,strong)UICollectionView * collection;
 @property(nonatomic,strong)NSMutableArray * dataArray;
@@ -31,19 +31,18 @@
     self.navigationController.navigationBarHidden = YES;
 
 }
+
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     self.navigationController.navigationBarHidden = NO;
-
-
 }
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initData];
     [self createMytoolBar];
     [self downloadDataWithUrl:self.web_url];
     [self createMyCollectionView];
-
 }
 
 

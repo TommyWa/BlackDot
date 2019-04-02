@@ -14,7 +14,8 @@
 
 @property(nonatomic,strong)UIScrollView * scrollView;
 @property(nonatomic,copy)NSString * apiUrl;
-- (instancetype)initWithFrame:(CGRect)frame AndPicArray:(NSArray *)picArray;
 @property(nonatomic,copy)void(^block)(NSString *,NSString *);
+
+- (instancetype)initWithFrame:(CGRect)frame AndPicArray:(NSArray *)picArray;
 
 @end

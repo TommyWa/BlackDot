@@ -248,7 +248,6 @@
     HomeChooseViewController * zvc = [[HomeChooseViewController alloc] init];
     self.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:zvc animated:YES];
-
 }
 
 #pragma mark - UICollectionView

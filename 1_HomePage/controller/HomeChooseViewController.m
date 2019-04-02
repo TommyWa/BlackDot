@@ -32,10 +32,7 @@
 
     [super viewWillDisappear:animated];
     self.hidesBottomBarWhenPushed = YES;
-
-
 }
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -44,7 +41,6 @@
     _searchData = [NSMutableArray array];
     [self.view addSubview:self.tableView];
     [self downloadData];
-
 }
 
 -(UITableView *)tableView{
