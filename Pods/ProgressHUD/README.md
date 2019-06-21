@@ -50,9 +50,19 @@ ProgressHUD is a lightweight and easy-to-use HUD for iOS (written in Objective-C
 [ProgressHUD dismiss];
 ```
 
-## COLOR SHEMES
+## SHEMES
 
-Feel free to customize the color settings in `ProgressHUD.h` file.
+You can customize the color, font and image options using the following methods:
+
+```
++ (void)statusFont:(UIFont *)font;
++ (void)statusColor:(UIColor *)color;
++ (void)spinnerColor:(UIColor *)color;
++ (void)hudColor:(UIColor *)color;
++ (void)backgroundColor:(UIColor *)color;
++ (void)imageSuccess:(UIImage *)image;
++ (void)imageError:(UIImage *)image;
+```
 
 ## CREDITS
 
