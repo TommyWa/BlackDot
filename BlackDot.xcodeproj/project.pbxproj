@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A4B7A29FE1878BC9FCBFF38 /* libPods-BlackDot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */; };
+		8A3781239C7849E042193671 /* libPods-BlackDot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F689CAAE3C3EE747F6A7E730 /* libPods-BlackDot.a */; };
 		9D03F4C71D1D38DC00D140B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C61D1D38DC00D140B1 /* main.m */; };
 		9D03F4CA1D1D38DC00D140B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4C91D1D38DC00D140B1 /* AppDelegate.m */; };
 		9D03F4CD1D1D38DC00D140B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D03F4CC1D1D38DC00D140B1 /* ViewController.m */; };
@@ -332,9 +332,9 @@
 		9DB9E2AA1D36728400D4BFFC /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
 		9DB9E2AB1D36728400D4BFFC /* icon3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3x.png; sourceTree = "<group>"; };
 		9E3193A29D92342EC978F195 /* Pods-BlackDot.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.distribution.xcconfig"; sourceTree = "<group>"; };
-		A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3333C6E32611C2D04DFB6C /* Pods-BlackDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.debug.xcconfig"; sourceTree = "<group>"; };
 		CA9E3B35F7E64241BA9C650D /* Pods-BlackDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackDot.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackDot/Pods-BlackDot.release.xcconfig"; sourceTree = "<group>"; };
+		F689CAAE3C3EE747F6A7E730 /* libPods-BlackDot.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackDot.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D8B2F111D228C7400FF0F0E /* libsqlite3.tbd in Frameworks */,
-				5A4B7A29FE1878BC9FCBFF38 /* libPods-BlackDot.a in Frameworks */,
+				8A3781239C7849E042193671 /* libPods-BlackDot.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,7 +783,7 @@
 		B67DA51DACF8B0AF7FE06B9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A5BBF0AE63DB6EB0F26888DB /* libPods-BlackDot.a */,
+				F689CAAE3C3EE747F6A7E730 /* libPods-BlackDot.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -823,8 +823,8 @@
 				TargetAttributes = {
 					9D03F4C11D1D38DC00D140B1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 925M29NF35;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = T7N4WB8M79;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1210,8 +1210,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 925M29NF35;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7N4WB8M79;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1219,6 +1219,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/Pods/AFNetworking\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1238,10 +1239,10 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gtja.yyzplus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackDot.wyt;
 				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = devYYZPlus;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
@@ -1255,8 +1256,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 925M29NF35;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7N4WB8M79;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1264,6 +1265,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/Pods/AFNetworking\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -1284,10 +1286,10 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gtja.yyzplus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackDot.wyt;
 				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = devYYZPlus;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
@@ -1353,8 +1355,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 925M29NF35;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7N4WB8M79;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/5_Library/UTIL/PrefixHeader.pch";
 				INFOPLIST_FILE = MyZaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1362,6 +1364,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)/Pods/AFNetworking\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
@@ -1382,10 +1385,10 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.gtja.yyzplus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.blackDot.wyt;
 				PRODUCT_NAME = BlackDot;
 				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = devYYZPlus;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 arm64e armv7s";
 			};
